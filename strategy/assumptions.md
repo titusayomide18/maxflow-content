@@ -26,7 +26,7 @@ Decisions I made without asking, so you can see them and overrule any of them. E
 | Demo code lives in this repo under `demos/` | Keeps script, code and article together. Can move to separate public repos when published. | Yes |
 | All demos use **test mode keys only** | Safety. Live keys never appear on screen or in the repo. | No, keep this |
 | Tracker is a **CSV** (`calendar/content-tracker.csv`) | Opens in Excel or imports into Google Sheets, diffs cleanly in git. | Yes |
-| First video topic: **Paystack's new webhook signature (Paystack-Signature)** | Paystack's docs now describe a new signing-secret scheme alongside the old `x-paystack-signature`. Timely, specific, and almost nobody has covered it. | Yes |
+| First video topic: **Paystack's new webhook signature (Paystack-Signature)** | Paystack's docs now describe a new signing-secret scheme alongside the old `x-paystack-signature`. Timely and specific, and older tutorials only cover the old header. | Yes |
 | No affiliate links in the first videos | No audience yet, and we only link things you've actually used. Services link and portfolio come first. | Yes |
 
 ## Things I assumed (please correct if wrong)
@@ -45,3 +45,14 @@ Scripts mark these with `[YOU: ...]`:
 - Your real experiences (e.g. bugs you've hit, client situations, described anonymously).
 - Real test results, timings, screenshots and recordings.
 - Anything about your SIWES placement, school or clients.
+
+## Decisions I made (Phase 3)
+
+| Decision | Why | Easy to change? |
+|---|---|---|
+| Video 02 moved from 24 Dec to **7 Jan 2027**, everything after shifts two weeks | Christmas Eve is a dead slot for dev content, and the first cycle needs slack | Yes |
+| Only video 01 is a full word-for-word script; 02 to 10 are detailed outlines with word-for-word hooks/outros | Later scripts will change once you've recorded the first ones. Full drafts take minutes when needed | Yes |
+| Demo 01 is plain JavaScript (not TypeScript) on Next.js 16.4.6 | Fewer moving parts on screen; tests run with Node's built-in runner, no extra packages | Yes |
+| Social priority: X, LinkedIn, then Shorts (same file to TikTok/Reels), Instagram carousels optional | X = dev community, LinkedIn = business clients. TikTok has no creator payouts in Nigeria | Yes |
+| No provider logos in thumbnails (names in plain text only) | Avoids implying endorsement or partnership | Yes |
+| Wallet video (07) uses a closed-loop store-credit example | Holding customer funds as a wallet business is regulated in Nigeria | Yes |

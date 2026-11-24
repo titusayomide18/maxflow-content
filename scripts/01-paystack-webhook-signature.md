@@ -9,10 +9,10 @@
 
 ## Why this video first
 
-Paystack's docs now describe a new `Paystack-Signature` header (timestamp + HMAC with a `whsec_` signing secret) alongside the old `x-paystack-signature`. Most tutorials online still only show the old one. It's specific, useful, security-related, and shows exactly the kind of "done properly" content the channel is about.
+Paystack's docs now describe a new `Paystack-Signature` header (timestamp + HMAC with a `whsec_` signing secret) alongside the old `x-paystack-signature`. Older tutorials only cover the old one. It's specific, useful, security-related, and shows exactly the kind of "done properly" content the channel is about.
 
 ## Title options
-1. Paystack changed how webhooks are signed. Here's how to verify them
+1. Paystack has a new way to sign webhooks. Here's how to verify it
 2. Verify Paystack webhooks properly (new Paystack-Signature header)
 3. Your Paystack webhook can be faked. Fix it in 10 minutes
 4. Paystack webhooks in Next.js: signatures, raw body and replay attacks
@@ -27,7 +27,7 @@ Paystack's docs now describe a new `Paystack-Signature` header (timestamp + HMAC
 
 ## Hook (word for word, about 15 seconds)
 
-> Your webhook URL is public. Anyone who finds it can send it a fake "payment successful" event, and if your code doesn't check where that request came from, you just gave someone free stuff. Paystack recently added a new way to sign webhooks, and it fixes a weakness in the old one. Let me show you both, and how to check them properly.
+> Your webhook URL is public. Anyone who finds it can send it a fake "payment successful" event, and if your code doesn't check where that request came from, you just gave someone free stuff. Paystack now has a newer way to sign webhooks, and it fixes a weakness in the old one. Let me show you both, and how to check them properly.
 
 `[SCREEN: terminal sending a fake charge.success to localhost with curl, server logs "Order #1042 marked as PAID". Freeze frame. Red text: "This was fake."]`
 
@@ -45,7 +45,7 @@ Paystack's docs now describe a new `Paystack-Signature` header (timestamp + HMAC
 
 ### 2. The old way: x-paystack-signature (1:30 to 3:00)
 
-> The old way, which you'll see in most tutorials, is a header called `x-paystack-signature`. Paystack takes the raw request body, runs an HMAC SHA512 over it using your secret key, and puts the result in that header. You do the same calculation on your side and compare.
+> The old way, which is what older tutorials show, is a header called `x-paystack-signature`. Paystack takes the raw request body, runs an HMAC SHA512 over it using your secret key, and puts the result in that header. You do the same calculation on your side and compare.
 
 `[SCREEN: the legacy verify function in demos/01.../lib/paystack-signature.js, function verifyLegacySignature]`
 

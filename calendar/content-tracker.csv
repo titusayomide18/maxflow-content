@@ -1,14 +1,14 @@
 id,working_title,pillar,status,target_publish,script,demo,search_term,your_hours,published_url,views_7d,ctr_7d,avg_view_duration,notes
 01,Verify Paystack webhooks the new way (Paystack-Signature),payments,scripted,2026-12-10,scripts/01-paystack-webhook-signature.md,demos/01-paystack-webhook-signature,paystack webhook signature,,,,,,Demo code drafted. Needs your test run.
-02,Callback page said success. The order still failed. (Verify payments properly),payments,scripted,2026-12-24,scripts/02-verify-before-you-deliver.md,,paystack verify transaction,,,,,,Christmas Eve slot: consider banking it early or moving to 2027-01-07
-03,Never store money as a float (kobo and decimals),payments,scripted,2027-01-07,scripts/03-money-in-databases.md,,store money in database,,,,,,
-04,Idempotency: the bug that charges your customer twice,payments,scripted,2027-01-21,scripts/04-idempotency.md,,idempotency payments,,,,,,
-05,How I'd design payments for a small Nigerian store,build,scripted,2027-02-04,scripts/05-payments-architecture-small-store.md,,payment system design,,,,,,Architecture video. Own/anonymised project only.
-06,Webhooks fail. Reconciliation is how you sleep at night,payments,scripted,2027-02-18,scripts/06-reconciliation.md,,payment reconciliation,,,,,,
-07,Build a wallet with a ledger not a balance column,payments,scripted,2027-03-04,scripts/07-wallet-ledger.md,,wallet ledger design,,,,,,
-08,Paystack vs Flutterwave vs Monnify webhooks compared,payments,scripted,2027-03-18,scripts/08-webhooks-compared.md,,flutterwave webhook,,,,,,Re-check Flutterwave v4 and Monnify signature docs before recording
-09,Your checkout on a bad network (timeouts retries double clicks),africa,scripted,2027-04-01,scripts/09-checkout-bad-network.md,,payment timeout retry,,,,,,
-10,I let AI write my payment code. Here's what would have cost money,ai,scripted,2027-04-15,scripts/10-ai-payment-code-review.md,,ai generated code security,,,,,,Needs a real AI test run by you
+02,Callback page said success. The order still failed. (Verify payments properly),payments,scripted,2027-01-07,scripts/02-verify-before-you-deliver.md,,paystack verify transaction,,,,,,Moved off Christmas Eve. Holiday week is a light week
+03,Never store money as a float (kobo and decimals),payments,scripted,2027-01-21,scripts/03-money-in-databases.md,,store money in database,,,,,,
+04,Idempotency: the bug that charges your customer twice,payments,scripted,2027-02-04,scripts/04-idempotency.md,,idempotency payments,,,,,,
+05,How I'd design payments for a small Nigerian store,build,scripted,2027-02-18,scripts/05-payments-architecture-small-store.md,,payment system design,,,,,,Architecture video. Own/anonymised project only.
+06,Webhooks fail. Reconciliation is how you sleep at night,payments,scripted,2027-03-04,scripts/06-reconciliation.md,,payment reconciliation,,,,,,
+07,Build a wallet with a ledger not a balance column,payments,scripted,2027-03-18,scripts/07-wallet-ledger.md,,wallet ledger design,,,,,,
+08,Paystack vs Flutterwave vs Monnify webhooks compared,payments,scripted,2027-04-01,scripts/08-webhooks-compared.md,,flutterwave webhook,,,,,,Re-check Flutterwave v4 and Monnify signature docs before recording
+09,Your checkout on a bad network (timeouts retries double clicks),africa,scripted,2027-04-15,scripts/09-checkout-bad-network.md,,payment timeout retry,,,,,,
+10,I let AI write my payment code. Here's what would have cost money,ai,scripted,2027-04-29,scripts/10-ai-payment-code-review.md,,ai generated code security,,,,,,Needs a real AI test run by you
 11,Refunds and reversals: what your code must handle,payments,idea,,,,paystack refund webhook,,,,,,
 12,Sending money out: Paystack transfers with retries done right,payments,idea,,,,paystack transfer api,,,,,,Uses transfer reference as idempotency key
 13,Pay with bank transfer: how virtual accounts work,payments,idea,,,,virtual account nigeria,,,,,,DVA needs a registered business. Check what your account can do first
