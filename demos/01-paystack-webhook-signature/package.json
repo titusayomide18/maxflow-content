@@ -1,0 +1,17 @@
+{
+  "name": "demo-01-paystack-webhook-signature",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test lib/*.test.js",
+    "webhook:send": "node --env-file=.env.local scripts/send-test-webhook.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "^19",
+    "react-dom": "^19"
+  }
+}
