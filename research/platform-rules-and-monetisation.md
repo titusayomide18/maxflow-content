@@ -90,3 +90,36 @@ Explicitly allowed: same intro/outro across videos, using AI to help edit script
 | **Paid dev services** (your stores, integrations) | Yes, fastest | Paid directly in naira. This is the realistic first income from the channel. |
 
 Sources used for the Nigeria-specific bits that aren't on official pages: [Lilach Bullock on receiving AdSense in Nigeria](https://www.lilachbullock.com/receive-adsense-payment-in-nigeria/), [Grey on receiving YouTube earnings in Nigeria](https://grey.co/blog/how-to-receive-youtube-earnings-in-nigeria). Both are fintech/affiliate blogs, so treat their numbers as indicative only.
+
+---
+
+## 5. YouTube setup facts (used in `setup/youtube-channel-setup.md`)
+
+Checked 24 Nov 2026.
+
+- **Banner:** minimum 2048 x 1152 px (16:9), recommended 2560 x 1440. Text and logos must sit in the **1235 x 338 px** safe area. Max 6 MB. ([Manage your channel branding](https://support.google.com/youtube/answer/10456525?hl=en))
+- **Profile picture:** JPG, PNG, GIF (not animated) or BMP, up to 15 MB, renders at 98 x 98 px. Upload a square, 800 x 800 is a sensible size. (same page)
+- **Watermark:** at least 150 x 150 px, square, under 1 MB. (same page)
+- **Thumbnails:** 16:9, minimum width 640 px. 1280 x 720 is the usual working size, YouTube now recommends up to 3840 x 2160. JPG or PNG. Custom thumbnails need a **verified** account (phone verification). ([Add video thumbnails](https://support.google.com/youtube/answer/72431?hl=en))
+- **Feature levels:** phone verification unlocks intermediate features (custom thumbnails, videos over 15 min, live streaming). Advanced features (higher upload limits, pinned comments and more) come from channel history, or faster via ID or video verification, which isn't available to every creator. ([Feature eligibility](https://support.google.com/youtube/answer/9890437?hl=en))
+- **Handles:** 3 to 30 characters, letters/numbers, plus `_`, `-` and `.` (not at the start or end). Not case-sensitive. ([Handles](https://support.google.com/youtube/answer/11585688?hl=en)). `youtube.com/@maxflowcodes` returned 404 on 24 Nov 2026, so it looks free, but only claiming it confirms that.
+- **Upload limits:** title 100 characters, description 5,000 characters. ([Upload videos](https://support.google.com/youtube/answer/57407?hl=en))
+- **Channel links:** up to 14 links on the channel; the first shows next to the subscribe button. Contact email goes under Customization > Profile > Contact info. ([Manage your channel's profile](https://support.google.com/youtube/answer/2972003?hl=en))
+- **Encoding:** MP4, H.264, AAC audio 48 kHz. YouTube's guide suggests about 8 Mbps for 1080p at 24 to 30 fps. ([Recommended upload encoding settings](https://support.google.com/youtube/answer/1722171?hl=en))
+- **AI disclosure ("altered or synthetic content"):** only required for **realistic** content that could mislead (fake real people, altered real events, realistic generated scenes). **Not** required for using AI on outlines, scripts, thumbnails, titles, captions or idea generation, or for cloning your own voice. Disclosing doesn't affect reach or monetization. Set it under the "AI use" option during upload. ([Disclosing altered or synthetic content](https://support.google.com/youtube/answer/14328491?hl=en)). Screen recordings of AI-assisted code don't need the label.
+
+## 6. Social platforms: monetisation from Nigeria
+
+Social is for growth and pointing people to your services, not income. Even so, worth knowing:
+
+- **TikTok Creator Rewards:** Nigeria is not in any country list I found (latest lists name the US, UK, Germany, France, Japan, South Korea, Brazil, Mexico). Treat TikTok as reach only. ([Toptal guide](https://www.toptal.com/creator/post/how-to-join-the-tiktok-creator-rewards-program), [Quasa](https://quasa.io/media/tiktok-creator-rewards-program-eligible-countries-in-2026)). These are third-party lists, so check in TikTok Studio if it ever matters.
+- **X revenue sharing:** requires a paid Premium subscription. Out of scope while we don't spend money.
+
+## 7. Affiliate candidates (not signed up, verify before joining)
+
+- **Hostinger:** affiliate payouts via PayPal (min $100) or bank transfer (min $500), only after the 30-day refund window ([Hostinger affiliate FAQ](https://hostinger.com/affiliates/faqs)). PayPal works in Nigeria via Paga now, so this is viable on paper. Only promote hosting you've actually used.
+- Others to evaluate later, only if you genuinely use them: domain registrars, VPS providers, developer tools. Rule for this channel: **no affiliate link for anything you haven't used yourself**.
+
+## 8. Video editing tool: Clipchamp free plan
+
+Microsoft says the free Clipchamp plan exports **up to 1080p without a watermark** on a personal Microsoft account. Using premium stock or paid features blocks export (or watermarks, per the pricing page), so avoid premium assets. ([Does Clipchamp add a watermark?](https://support.microsoft.com/en-us/clipchamp/does-clipchamp-add-a-watermark-to-videos), [Clipchamp pricing](https://clipchamp.com/en/pricing))

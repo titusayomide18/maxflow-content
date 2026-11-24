@@ -6,10 +6,13 @@ Everything for the Maxflow Codes content channel: research, strategy, scripts, a
 
 | Folder | What's in it |
 |---|---|
-| `research/` | Platform rules, monetisation and payout facts, with sources and the date they were checked |
-| `strategy/` | Niche, format, positioning, channel plan, workflow |
-| `scripts/` | Video scripts and outlines (Phase 3) |
-| `calendar/` | Content calendar and tracker (Phase 2 and 3) |
-| `site/` | Companion site code (Phase 4, if we build it) |
+| `research/` | Platform rules, monetisation, payout and payment-API facts, with sources and the date checked |
+| `strategy/` | Niche decision, channel plan, assumptions log, distribution plan |
+| `setup/` | Step-by-step YouTube channel setup |
+| `workflow/` | Production workflow (who does what) and reusable AI prompts |
+| `calendar/` | Content tracker (CSV), 4-week calendar, repurposing plan |
+| `scripts/` | Video scripts |
+| `demos/` | Demo code shown in videos (test mode only) |
+| `site/` | Companion site plan and, later, code (Phase 4) |
 
 Current status and next steps: see [HANDOFF.md](HANDOFF.md).
